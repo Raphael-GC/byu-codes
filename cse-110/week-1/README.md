@@ -3,10 +3,10 @@
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
         src="../.github/assets/logo-py.svg" 
-        width="100%"
+        width="60%"
     />
 
-    Week 01 - Input and Output
+Week 01 - Input and Output
 </h1>
 
 ### Code 1 : 
