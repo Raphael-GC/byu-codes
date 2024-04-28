@@ -111,3 +111,7 @@ This program also contains a way to implement the stretch challenges.
     print("----------------------------------------")
     ```
 </details>
+
+### Code 4 : 
+Purpose: Write a program with variables and strings to accomplish a meaningful task.
+Task: Complete the requirements for your program.
