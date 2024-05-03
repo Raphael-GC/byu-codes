@@ -22,7 +22,7 @@
 </details>
 <details>
     <summary><b>Subjects</b></summary>      
-    - <a src="./web-and-computer-programming/cse-110/README.md">CSE 110 - Intro to Programming</a><br> 
+    - [CSE 110 - Intro to Programming](./web-and-computer-programming/cse-110/README.md) <br> 
     - <a src="">WDD 130 - Web Fundamentals</a><br>
     - <a src="">CSE 111 - Programming with Functions</a><br>
     - <a src="">CSE 210 - Programming with Classes</a><br>
