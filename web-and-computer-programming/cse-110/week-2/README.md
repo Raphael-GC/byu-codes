@@ -10,5 +10,10 @@ Week 02 - Variables and Expressions
 </h1>
 
 <br>
-<img src="../../../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
-<footer align="center">Grow like a 🌳!</footer>
+
+<center>
+
+<b>[Back](/web-and-computer-programming\cse-110\README.md)</b>
+
+<img src="./../../../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+<p align="center">Grow like a 🌳!</p>

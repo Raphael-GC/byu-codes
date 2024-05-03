@@ -2,28 +2,38 @@
     <img 
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
-        src="./cse-110/.github/assets/logo-py.svg" 
+        src="./../.github/assets/logo-github.svg" 
         width="60%"
     />
 
-CSE 110 - Intro to Programming
+
+<b>WEB AND COMPUTER PROGRAMMING</b><br>
 </h1>
 
-> This course will introduce students to programming. It will introduce the building blocks of programming languages (variables, decisions, calculations, loops, array, and input/output) and use them to solve problems.
+<h3>First Certificate</h3>
 
-<details>
-    <summary><b> 📆 Weekly Topics</b></summary>      
-    - <a src="./cse-110/week-1">Week 01 - Getting Started and Input/Output</a><br>
-    - <a src="./cse-110/week-2">Week 02 - Variables and Expressions</a><br>
-    - <a src="./cse-110/week-3">Week 03 - Decisions</a><br>
-    - <a src="./cse-110/week-4">Week 04 - Loops</a><br>
-    - <a src="./cse-110/week-5">Week 05 - Lists</a><br>
-    - <a src="./cse-110/week-6">Week 06 - Files</a><br>
-    - <a src="./cse-110/week-7">Week 07 - Function Basics</a><br>
-</details>
-<br>
-<b><a src="https://byui-cse.github.io/cse110-course/"> 📖 Course Materials</a></b>
+> The web and computer programming certificate provides students with foundational skills so they can successfully contribute to software and web development teams.<br><br>
+> Training in web and computer programming prepares you for the constantly changing field of web and software development by helping you gain skills in designing user interfaces and a variety of programming languages.
+
+<b>Essential Knowledge and Skills Developed:</b><br>
+    - Write programs to accomplish meaningful tasks in a variety of domains.<br>
+    - Design websites that are visually appealing and effective.<br>
+    - Develop dynamic webpages that follow industry standards and best practices.<br>
+    - Learn and apply new technology and techniques in future programming.<br><br>  
+
+
+<b>Subjects:</b><br>
+    - [CSE 110 - Intro to Programming](/web-and-computer-programming/cse-110/README.md)<br> 
+    - <a src="">WDD 130 - Web Fundamentals</a><br>
+    - <a src="">CSE 111 - Programming with Functions</a><br>
+    - <a src="">CSE 210 - Programming with Classes</a><br>
+    - <a src="">WDD 131 - Dynamic Web Fundamentals</a><br>
+    - <a src="">WDD 231 - Web Frontend Development</a><br>
 
 <br>
-<img src="../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
-<footer align="center">Grow like a 🌳!</footer>
+<center>
+
+<b>[Back](/README.md)</b>
+
+<img src="./../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+<p align="center">Grow like a 🌳!</p>

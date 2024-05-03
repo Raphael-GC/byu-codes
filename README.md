@@ -12,17 +12,17 @@
 
 > This course is divided into three certificates, and I can also include separate electives. I haven't selected my electives yet, but I will update this list as I study. Below are the subjects for each certificate. This is where I will document my learning progress towards obtaining my Bachelor's Degree.
 
-### [WEB AND COMPUTER PROGRAMMING](https://github.com/Raphael-GC/byu-codes/blob/main/web-and-computer-programming%2FREADME.md)
+### [WEB AND COMPUTER PROGRAMMING](web-and-computer-programming\README.md)
 <details>
-    <summary><b>Essential Knowledge and Skills Developed</b></summary><br>
+    <summary><b>Essential Knowledge and Skills Developed</b></summary>
     - Write programs to accomplish meaningful tasks in a variety of domains.<br>
     - Design websites that are visually appealing and effective.<br>
     - Develop dynamic webpages that follow industry standards and best practices.<br>
     - Learn and apply new technology and techniques in future programming.<br><br>  
 </details>
 <details>
-    <summary><b>Subjects</b></summary>      
-    - [CSE 110 - Intro to Programming](web-and-computer-programming/cse-110/README.md) <br> 
+    <summary><b>Subjects</b></summary><br>    
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110">CSE 110 - Intro to Programming</a><br> 
     - <a src="">WDD 130 - Web Fundamentals</a><br>
     - <a src="">CSE 111 - Programming with Functions</a><br>
     - <a src="">CSE 210 - Programming with Classes</a><br>
