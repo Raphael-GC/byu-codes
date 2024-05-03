@@ -116,9 +116,11 @@ This program also contains a way to implement the stretch challenges.
 Purpose: Write a program with variables and strings to accomplish a meaningful task.
 Task: Complete the requirements for your program.
 
-<center>
+<div align="center">
 
 <b>[Back](/web-and-computer-programming\cse-110\README.md)</b>
+
+</div>
 
 <img src="./../../../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 <p align="center">Grow like a 🌳!</p>

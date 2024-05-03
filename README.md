@@ -10,9 +10,14 @@
 <b>Software Development</b>
 </h1>
 
+<div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Student%20Medium-Dark%20Skin%20Tone.png" alt="Student Medium-Dark Skin Tone" width="50" height="50"/></div>
+Hello, there! I've started my path to get my Bachelor's Degree this spring. I decided to take notes about every step during this journey. Bellow, it's some explanations about this degree. In each subject folder, I'll put the exercises that I've made and the sample solution for each one. As soon as possible, I'll add a legend to make it easy to get where and what I'll study each season.
+
+<br><img src="./.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+
 > This course is divided into three certificates, and I can also include separate electives. I haven't selected my electives yet, but I will update this list as I study. Below are the subjects for each certificate. This is where I will document my learning progress towards obtaining my Bachelor's Degree.
 
-### [WEB AND COMPUTER PROGRAMMING](web-and-computer-programming/README.md)
+### [WEB AND COMPUTER PROGRAMMING](web-and-computer-programming/README.md) <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left%20Medium-Dark%20Skin%20Tone.png" alt="Backhand Index Pointing Left Medium-Dark Skin Tone" width="25" height="25" />
 <details>
     <summary><b>Essential Knowledge and Skills Developed</b></summary>
     - Write programs to accomplish meaningful tasks in a variety of domains.<br>

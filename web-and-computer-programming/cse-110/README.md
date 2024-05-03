@@ -24,9 +24,11 @@ CSE 110 - Intro to Programming
 
 <b><a src="https://byui-cse.github.io/cse110-course/"> 📖 Course Materials</a></b>
 
-<center>
+<div align="center">
 
 <b>[Back](/web-and-computer-programming/README.md)</b>
+
+</div>
 
 <img src="./../../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 <p align="center">Grow like a 🌳!</p>
