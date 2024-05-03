@@ -72,4 +72,4 @@
 
 <br>
 <img src="./.github/assets/gradient-bar.svg" width="100%" height="8px"/>
-<footer align="center">Grow like a 🌳!</footer>
+<p align="center">Grow like a 🌳!</p>
