@@ -12,7 +12,7 @@
 
 > This course is divided into three certificates, and I can also include separate electives. I haven't selected my electives yet, but I will update this list as I study. Below are the subjects for each certificate. This is where I will document my learning progress towards obtaining my Bachelor's Degree.
 
-### [WEB AND COMPUTER PROGRAMMING](web-and-computer-programming\README.md)
+### [WEB AND COMPUTER PROGRAMMING](web-and-computer-programming/README.md)
 <details>
     <summary><b>Essential Knowledge and Skills Developed</b></summary>
     - Write programs to accomplish meaningful tasks in a variety of domains.<br>
