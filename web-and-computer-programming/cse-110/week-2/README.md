@@ -9,6 +9,11 @@
 Week 02 - Variables and Expressions
 </h1>
 
+[Team Activity: Area of Shapes](/web-and-computer-programming/cse-110/week-2/team_project_area_of_shapes.py)
+
+[Week Project: Meal Price Calculator](/web-and-computer-programming/cse-110/week-2/meal_price_calculator_final.py)
+
+
 <br>
 
 <div align="center">
