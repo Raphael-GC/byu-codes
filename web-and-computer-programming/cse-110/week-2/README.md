@@ -9,9 +9,11 @@
 Week 02 - Variables and Expressions
 </h1>
 
+Middle of Week Exercises - In Progress <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Shushing%20Face.png" alt="Shushing Face" width="25" height="25" />
+
 [Team Activity: Area of Shapes](/web-and-computer-programming/cse-110/week-2/team_project_area_of_shapes.py)
 
-[Week Project: Meal Price Calculator](/web-and-computer-programming/cse-110/week-2/meal_price_calculator_final.py)
+[Week's Project: Meal Price Calculator](/web-and-computer-programming/cse-110/week-2/meal_price_calculator_final.py)
 
 
 <br>
