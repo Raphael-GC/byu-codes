@@ -13,11 +13,22 @@ Week 03 - Decisions
 - [Comparing Numbers and Strings](/web-and-computer-programming/cse-110/week-3/comparing_numbers_and%20_strings.py)
 - [Qualifying for a Loan](/web-and-computer-programming/cse-110/week-3/qualifying_for_a_loan.py)
 
-<b>Week's Project:</b>
-
-💡Common boolean variable names are:
+#### 💡📆 Tip of Week:
 ```
-is_xxx, has_xxx, can_xxx, etc.
+Common boolean variable names are: is_xxx, has_xxx, can_xxx, should_xxx, etc.
+```
+
+<b>Week's Project: Adventure Game
+
+[Team Activity: Grade Calculator Program](/web-and-computer-programming/cse-110/week-3/team_project_grade_calculator_program.py) </b>
+
+- [sample solution](/web-and-computer-programming/cse-110/week-3/team_grades_stretch_sample.py)
+- [class solution](/web-and-computer-programming/cse-110/week-3/team_activity.py)
+
+
+#### 💡🤯 What did I learn this week?
+```
+This week, while I prepared for a team activity and compared my code with the sample solution. I realized how redundant my code was and was amazed that I had used three times more lines than necessary to fulfill the requirements. I learned my lesson and will analyze all possibilities for reducing my code in the future.
 ```
 
 <br>
