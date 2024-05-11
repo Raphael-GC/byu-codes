@@ -18,8 +18,9 @@ Week 03 - Decisions
 Common boolean variable names are: is_xxx, has_xxx, can_xxx, should_xxx, etc.
 ```
 
-<b>Week's Project: Adventure Game
+<b>
 
+[Week's Project: Adventure Game](/web-and-computer-programming/cse-110/week-3/adventure_game.py)
 [Team Activity: Grade Calculator Program](/web-and-computer-programming/cse-110/week-3/team_project_grade_calculator_program.py) </b>
 
 - [sample solution](/web-and-computer-programming/cse-110/week-3/team_grades_stretch_sample.py)
