@@ -6,7 +6,7 @@
         width="60%"
     />
 
-Week 04 - Loops
+Week 05 - Lists
 </h1>
 <b>Middle of Week Exercises:</b>
 
@@ -19,7 +19,7 @@ Week 04 - Loops
 
 <b>
 
-[Week's Project: Word Puzzle](/web-and-computer-programming/cse-110/week-4/word_puzzle.py) <br><br>
+[Week's Project: Shopping Cart](/web-and-computer-programming/cse-110/week-5/shopping_cart.py) <br><br>
 [Team Activity: ](/web-and-computer-programming/cse-110/week-4/team_activity.py)
 
 - [sample solution]()
