@@ -20,7 +20,7 @@ Middle of Week Exercises - In Progress <img src="https://raw.githubusercontent.c
 
 <div align="center">
 
-<b>[Back](/web-and-computer-programming\cse-110\README.md)</b>
+<b>[Back](/web-and-computer-programming/cse-110/README.md)</b>
 
 </div>
 
