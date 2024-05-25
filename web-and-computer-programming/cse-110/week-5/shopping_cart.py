@@ -2,7 +2,10 @@
 # Week 5 Project: Shopping Cart
 
 import os
+# Cleaning up the terminal screen before showing the program.
+os.system('cls')
 
+# Create a shopping cart list
 shopping_cart = []
 
 # Introduction
@@ -32,27 +35,24 @@ def remove_item():
     os.system('cls')
     print("🛒 Shopping Cart 🛒")
     print()
-    item = input("Which item would you like to remove? ")
+    item_remove = input("Which item would you like to remove? ")
 
-    # Removing by index
-    if item.isdigit():
-        index = int(item) - 1
+    # Removing by index (number)
+    if item_remove.isdigit():
+        index = int(item_remove) - 1
         if 0 <= index < len(shopping_cart):
             shopping_cart.pop(index)
-            print(f"Item {index} removed.")
-            print("Test do remove por numero")
-        else:
-            # Error message
-            print("Please enter a valid item number within the current list.")
-    # Removing by name
-    else:
+            print(f"Item {index + 1} removed.")
+
+    # Removing by name (string) - (It's not a requirement)
+    elif item_remove.isalpha():
         for i in range(len(shopping_cart)):
-            if item.lower() == shopping_cart[i][0].lower():
+            if item_remove.lower() == shopping_cart[i][0].lower():
                 shopping_cart.pop(i)
-            print(f"Item {i+1} removed.")
-            print("Test do remove por nome")
-            return
-        # Error message
+                print("Item removed.")
+
+    # Error message
+    else:
         print("Please enter a valid item name within the current list.")
 
 # Create a compute_total function
@@ -66,6 +66,16 @@ def compute_total():
         total += price
     print(f"The total price of the items in the shopping cart is: ${total:.2f} 💸")
     print("--------------------------------------------------------")
+    return total
+
+# Getting the payment amount, calculating the change amount and displaying it. (It's not a requirement)
+def payment():
+    if compute_total() != 0:
+        payment_amount = float(input("\nWhat is the payment amount? "))
+        change_amount = payment_amount - compute_total()
+        print(f"Change: ${change_amount:.2f}")
+    else:
+        print("There are no items in the shopping cart.")
 
 # Menu options
 while True:
@@ -75,8 +85,9 @@ while True:
     print("1. ➕ Add item")
     print("2. 👀 View cart")
     print("3. ➖ Remove item")
-    print("4. 🟰 Compute total")
-    print("5. 🔚 Quit")
+    print("4. 🟰  Compute total")
+    print("5. 💸 Payment") # (It's not a requirement)
+    print("6. 🔚 Quit")
     try:
         choice = int(input("Please enter an action: "))
     except ValueError:
@@ -91,6 +102,8 @@ while True:
     elif choice == 4:
         compute_total()
     elif choice == 5:
+        payment()
+    elif choice == 6:
         print("\nThank you. Goodbye.👋🏾 ")
         break
     else:
