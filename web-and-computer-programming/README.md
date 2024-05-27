@@ -2,7 +2,7 @@
     <img 
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
-        src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/logo-github.svg" 
+        src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/logo-github.png" 
         width="60%"
     />
 
@@ -36,5 +36,5 @@
 
 </div>
 
-<img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+<img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.png" width="100%" height="8px"/>
 <p align="center">Grow like a 🌳!</p>
