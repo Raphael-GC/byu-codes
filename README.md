@@ -3,6 +3,7 @@
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
         src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/logo-github.svg" 
+        src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/logo-github.svg" 
         width="60%"
     />
 
@@ -13,6 +14,7 @@
 <div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Student%20Medium-Dark%20Skin%20Tone.png" alt="Student Medium-Dark Skin Tone" width="50" height="50"/></div>
 Hello, there! I've started my path to get my Bachelor's Degree this spring. I decided to take notes about every step during this journey. Bellow, it's some explanations about this degree. In each subject folder, I'll put the exercises that I've made and the sample solution for each one. As soon as possible, I'll add a legend to make it easy to get where and what I'll study each season.
 
+<br><img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 <br><img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 
 > This course is divided into three certificates, and I can also include separate electives. I haven't selected my electives yet, but I will update this list as I study. Below are the subjects for each certificate. This is where I will document my learning progress towards obtaining my Bachelor's Degree.
