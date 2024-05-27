@@ -2,7 +2,7 @@
     <img 
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
-        src="./../.github/assets/logo-github.svg" 
+        src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/logo-github.svg" 
         width="60%"
     />
 
@@ -23,7 +23,7 @@
 
 
 <b>Subjects:</b><br>
-    - [CSE 110 - Intro to Programming](/web-and-computer-programming/cse-110/README.md)<br> 
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/README.md">CSE 110 - Intro to Programming</a><br> 
     - <a src="">WDD 130 - Web Fundamentals</a><br>
     - <a src="">CSE 111 - Programming with Functions</a><br>
     - <a src="">CSE 210 - Programming with Classes</a><br>
@@ -32,9 +32,9 @@
 
 <div align="center">
 
-<b>[Back](/README.md)</b>
+<b><a src="https://github.com/Raphael-GC/byu-codes/tree/main/README.md">Back</a></b>
 
 </div>
 
-<img src="./../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+<img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 <p align="center">Grow like a 🌳!</p>

@@ -2,7 +2,7 @@
     <img 
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
-        src="../.github/assets/logo-py.svg" 
+        src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/.github/assets/logo-py.svg"
         width="60%"
     />
 
@@ -34,9 +34,9 @@ Week 03 - Decisions
 
 <div align="center">
 
-<b>[Back](/web-and-computer-programming/cse-110/README.md)</b>
+<b><a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/README.md">Back</a></b>
 
 </div>
 
-<img src="./../../../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+<img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 <p align="center">Grow like a 🌳!</p>

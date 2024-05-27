@@ -2,7 +2,7 @@
     <img 
         alt="BYU-Idaho"
         title="BYU-Idaho Logo" 
-        src="./../cse-110/.github/assets/logo-py.svg" 
+        src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/.github/assets/logo-py.svg" 
         width="60%"
     />
 
@@ -13,12 +13,12 @@ CSE 110 - Intro to Programming
 
 
 <b> 📆 Weekly Topics</b><br>
-    - [Week 01 - Getting Started and Input/Output](/web-and-computer-programming/cse-110/week-1/README.md) <br>
-    - [Week 02 - Variables and Expressions](/web-and-computer-programming/cse-110/week-2/README.md) <br>
-    - [Week 03 - Decisions](/web-and-computer-programming/cse-110/week-3/README.md)<br>
-    - [Week 04 - Loops](/web-and-computer-programming/cse-110/week-4/README.md) <br>
-    - [Week 05 - Lists](/web-and-computer-programming/cse-110/week-5/README.md) <br>
-    - [Week 06 - Files](/web-and-computer-programming/cse-110/week-6/README.md) <br>
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/week-1/README.md">Week 01 - Getting Started and Input/Output</a><br>
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/week-2/README.md">Week 02 - Variables and Expressions</a><br>
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/week-3/README.md">Week 03 - Decisions</a><br>
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/week-4/README.md">Week 04 - Loops</a><br>
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/week-5/README.md">Week 05 - Lists</a><br>
+    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/week-6/README.md">Week 06 - Files</a><br>
     - <a src="./cse-110/week-7">Week 07 - Function Basics</a><br>
 </details>
 
@@ -26,9 +26,9 @@ CSE 110 - Intro to Programming
 
 <div align="center">
 
-<b>[Back](/web-and-computer-programming/README.md)</b>
+<b><a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110/README.md">Back</a></b>
 
 </div>
 
-<img src="./../../.github/assets/gradient-bar.svg" width="100%" height="8px"/>
+<img src="https://github.com/Raphael-GC/byu-codes/tree/main/.github/assets/gradient-bar.svg" width="100%" height="8px"/>
 <p align="center">Grow like a 🌳!</p>
