@@ -32,7 +32,7 @@
 
 <div align="center">
 
-<b><a src="https://github.com/Raphael-GC/byu-codes/tree/main/README.md">Back</a></b>
+<b>[Back](/README.md)</a></b>
 
 </div>
 
