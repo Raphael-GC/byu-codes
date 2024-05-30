@@ -20,15 +20,15 @@ Week 06 - Files
 <b>
 
 [Week's Project: ?](/) <br><br>
-[Team Activity: ?](/)
+[Team Activity: Human Resources System](/)
 
-- [sample solution](/)
-- [class solution](/)
+- [sample solution](/web-and-computer/cse-110/week-6/team_hr_stretch_sample.py)
+- [class solution](/web-and-computer-programming/cse-110/week-6/team_activity.py)
 
 
 #### 💡🤯 What did I learn this week?
 
->????????
+>About working with files in Python, I needed to change the usual syntax and use the slash in the address instead of the backslash - default in Windows addresses
 
 <br>
 
