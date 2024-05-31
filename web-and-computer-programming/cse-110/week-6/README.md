@@ -10,8 +10,8 @@ Week 06 - Files
 </h1>
 <b>Middle of Week Exercises:</b>
 
-- [-]()
-- [-]()
+- [books](/web-and-computer-programming/cse-110/week-6/books.py)
+- [people](/web-and-computer-programming/cse-110/week-6/people.py)
 
 #### 💡📆 Tip of Week:
 
