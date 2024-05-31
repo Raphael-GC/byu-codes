@@ -19,7 +19,7 @@ Week 06 - Files
 
 <b>
 
-[Week's Project: ?](/) <br><br>
+[Week's Project: DData Analysis](/web-and-computer-programming/cse-110/week-6/data_analysis.py) <br><br>
 [Team Activity: Human Resources System](/)
 
 - [sample solution](/web-and-computer/cse-110/week-6/team_hr_stretch_sample.py)
