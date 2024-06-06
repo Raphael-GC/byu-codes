@@ -1,2 +1,3 @@
 # Developer environment
 .pylintrc
+.vscode\launch.json
