@@ -15,11 +15,12 @@ Week 06 - Files
 
 #### 💡📆 Tip of Week:
 
->????????
+>Learn that after reading a file, cleaning and organizing it, and separating it into distinct lists, you will be able to manipulate it most effectively by converting it into a tuple. As in the example below, taken from this week’s project:
+>parts2 = list(zip(entity, code, year, life_expectancy))
 
 <b>
 
-[Week's Project: DData Analysis](/web-and-computer-programming/cse-110/week-6/data_analysis.py) <br><br>
+[Week's Project: Data Analysis](/web-and-computer-programming/cse-110/week-6/data_analysis.py) <br><br>
 [Team Activity: Human Resources System](/)
 
 - [sample solution](/web-and-computer/cse-110/week-6/team_hr_stretch_sample.py)
@@ -28,7 +29,8 @@ Week 06 - Files
 
 #### 💡🤯 What did I learn this week?
 
->About working with files in Python, I needed to change the usual syntax and use the slash in the address instead of the backslash - default in Windows addresses
+>About working with files in Python, I needed to change the usual syntax and use the slash in the address instead of the backslash - default in Windows addresses.
+>I learned that in Python we can include an IF statement within the FOR declaration. And all this by assigning the result of this "filter" to a new list.
 
 <br>
 
