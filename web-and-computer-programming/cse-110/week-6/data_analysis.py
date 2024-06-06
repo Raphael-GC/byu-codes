@@ -1,25 +1,24 @@
 # Author: Raphael Carneiro
 # Week 6 Project: Data Analysis
-# Creativity Contributions: 
+# Creativity Contributions:
 # 1 - I added a menu for the user to select and filter results by year or country.
-# 2 - I added a function to filter results by country.
-# 3 - I added a function to filter results by continent.
+# 2 - I added a function to filter results by country and show the range of years searched.
+# 3 - I added a function to filter results by continent  and show the range of years searched.
 
 import os
-os.system('cls')
 
 entity = []
 code = []
 year = []
 life_expectancy = []
 
-with open("c:/Users/rapha/my-codes/byu-codes/web-and-computer-programming/cse-110/week-6/life_expectancy.csv") as data_file:
+with open("c:/Users/rapha/my-codes/byu-codes/web-and-computer-programming/cse-110/week-6/life_expectancy.csv", encoding='utf-8') as data_file:
     # getting information from each line in the file
     for index, line in enumerate(data_file):
         # skipping the first line
         if index == 0:
             continue
-        
+
         # Braking the line after each comma. In this case, we have four columns [0][1][2][3].
         parts = line.strip().split(",")
 
@@ -28,99 +27,128 @@ with open("c:/Users/rapha/my-codes/byu-codes/web-and-computer-programming/cse-11
         year.append(int(parts[2]))
         life_expectancy.append(float(parts[3]))
 
-def overall_max(parts, life_expectancy):
-    max_life = -1
-    for life_expectancy in enumerate(parts):
-        if float(parts[3]) == max(life_expectancy):
-            max_life = float(parts[3])
-            max_year = int(parts[2])
-            max_entity = parts[0]
-            print(f"The overall max life expectancy is: {max_life} from {max_entity} in {max_year}")
-    
-def overall_min(parts, life_expectancy):
-    min_life = 999999
-    for life_expectancy in enumerate(parts):       
-        if float(parts[3]) == min(life_expectancy):
-            min_life = float(parts[3])
-            min_year = int(parts[2])
-            min_entity = parts[0]
-            print(f"The overawll min life expectancy is: {min_life} from {min_entity} in {min_year}")
+parts2 = list(zip(entity, code, year, life_expectancy))
 
-def search_max_life(entity, life_expectancy, year, year_searched):
-    max_life = -1
-    results = []
+def overall_max(parts2_list):
+    filtered_data = [register for register in parts2_list if register[1] != '']
 
-    for i in range(len(year)):
-        if year[i] == year_searched:
-            if life_expectancy[i] > max_life:
-                max_life = life_expectancy[i]
-                results = [(entity[i], year[i], life_expectancy[i])]
-            #elif life_expectancy[i] == max_life:
-                #results.append((entity[i], year[i], life_expectancy[i]))
-            else:
-                continue
-        else:
-            continue
-    
-    if results:
-        print(f"The max life expectancy was in {results[0]} with {results[2]}")
-    else:
+    if not filtered_data:
+        print("No data found.")
+        return
+
+    max_life = max(filtered_data, key=lambda x: x[3])
+
+    print(f"The overall max life expectancy is: {max_life[3]} from {max_life[0]} in {max_life[2]}")
+
+def overall_min(parts2_list):
+    filtered_data = [register for register in parts2_list if register[1] != '']
+
+    if not filtered_data:
+        print("No data found.")
+        return
+
+    min_life = min(filtered_data, key=lambda x: x[3])
+
+    print(f"The overall max life expectancy is: {min_life[3]} from {min_life[0]} in {min_life[2]}")
+
+def search_max_min_avg(parts2_list, year_searched):
+    filtered_data = [register for register in parts2_list if register[2] == year_searched]
+
+    if not filtered_data:
         print(f"No data found for the year {year_searched}")
+        return
 
-def search_min_life(entity, life_expectancy, year, year_searched):
-    min_life = 999999
-    results = []    
+    min_life = min(filtered_data, key=lambda x: x[3])
+    max_life = max(filtered_data, key=lambda x: x[3])
+    sum_life = sum(register[3] for register in filtered_data)
+    avg_life = sum_life / len(filtered_data)
 
-    for i in range(len(year)):
-        if year[i] == year_searched:
-            if life_expectancy[i] < min_life:
-                min_life = life_expectancy[i]
-                results = [(entity[i], year[i], life_expectancy[i])]
-            #elif life_expectancy[i] == min_life:
-                #results.append((entity[i], year[i], life_expectancy[i]))
-            else:
-                continue
-        else:
-            continue
-    
-    if results:
-        print(f"The min life expectancy was in {results[0]} with {results[2]}")
-    else:
-        print(f"No data found for the year {year_searched}")
+    print(f"The average life expectancy across all countries (234) in {year_searched} was {avg_life:.2f}")
+    print(f"The min life expectancy was in {min_life[0]} with {min_life[3]} in {year_searched}")
+    print(f"The max life expectancy was in {max_life[0]} with {max_life[3]} in {year_searched}")
 
-def average_life(entity, life_expectancy, year, code, year_searched):
-    average = 0
-    results = []
-
-    for i in range (len(entity)):    
-        if code != '':
-            if year == year_searched:
-                results.append(float(life_expectancy[i]))
-            else:
-                continue
-        else:
-            continue
-    
-    for i in range(len(results)):
-        average += results[i]
-        
-    average = average / len(results)
-    
-    print(f"The average life expectancy across all countries was {average}")
-
-def search_year(parts, entity, year,life_expectancy):
+def search_year():
     os.system("cls")
-    year_searched = int(input("🔍 Enter the year of interest: \n"))
-
-    overall_max(parts, life_expectancy)
-    overall_min(parts, life_expectancy)
+    year_searched = int(input("🔍 Enter the year of interest: "))
+    print()
+    overall_max(parts2)
+    overall_min(parts2)
     print()
     print(f"For the year {year_searched}:")
-    average_life(entity, life_expectancy, year, code, year_searched)
-    search_max_life(entity, year, life_expectancy, year_searched)
-    search_min_life(entity, year, life_expectancy, year_searched)
-           
+    print()
+    search_max_min_avg(parts2, year_searched)
+
+def search_country(parts2_list):
+    os.system("cls")
+    country_searched = input("Enter the country of interest: ")
+    filtered_data = [register for register in parts2_list if register[0].lower() == country_searched.lower()]
+
+    min_life = min(filtered_data, key=lambda x: x[3])
+    max_life = max(filtered_data, key=lambda x: x[3])
+    sum_life = sum(register[3] for register in filtered_data)
+    avg_life = sum_life / len(filtered_data)
+
+    print(f"The average life expectancy for {country_searched.title()} was {avg_life:.2f}")
+    print(f"The min life expectancy was {min_life[3]} in {min_life[2]}")
+    print(f"The min life expectancy was {max_life[3]} in {max_life[2]}")
+def search_continent(parts2_list, continent_searched):
+    os.system("cls")
+    filtered_data = [register for register in parts2_list if register[0].lower() == continent_searched.lower()]
+
+    min_life = min(filtered_data, key=lambda x: x[3])
+    max_life = max(filtered_data, key=lambda x: x[3])
+    sum_life = sum(register[3] for register in filtered_data)
+    avg_life = sum_life / len(filtered_data)
+
+    print(f"The average life expectancy for {continent_searched.title()} was {avg_life:.2f}")
+    print(f"The min life expectancy was {min_life[3]} in {min_life[2]}")
+    print(f"The min life expectancy was {max_life[3]} in {max_life[2]}")
+
+def menu_continent():
+    os.system("cls")
+    continent_searched = ''
+
+    while True:
+        print()
+        print("1. Americas")
+        print("2. Africa")
+        print("3. Asia")
+        print("4. Europe")
+        print("5. Northern America")
+        print("6. Oceania")
+        print("7. 🔙 Main Menu\n")
+        try:
+            choice2 = int(input("Enter the continent of interest (type a number): "))
+        except ValueError:
+            print("Please enter a valid choice.")
+            continue
+        if choice2 == 1:
+            continent_searched = "africa"
+            search_continent(parts2, continent_searched)
+        elif choice2 == 2:
+            continent_searched = "americas"
+            search_continent(parts2, continent_searched)
+        elif choice2 == 3:
+            continent_searched = "asia"
+            search_continent(parts2, continent_searched)
+        elif choice2 == 4:
+            continent_searched = "europe"
+            search_continent(parts2, continent_searched)
+        elif choice2 == 5:
+            continent_searched = "northern america"
+            search_continent(parts2, continent_searched)
+        elif choice2 == 6:
+            continent_searched = "oceania"
+            search_continent(parts2, continent_searched)
+        elif choice2 == 7:
+            print()
+            break
+        else:
+            print("Please enter a valid choice.\n")
+            continue
+
 while True:
+    print()
     print("🔍 Research life expectancy around the world!🔎")
     print()
     print("1. Search by YEAR")
@@ -133,11 +161,11 @@ while True:
         print("Please enter a valid choice.")
         continue
     if choice == 1:
-        search_year(parts, entity, year,life_expectancy)
+        search_year()
     elif choice == 2:
-        search_country()
+        search_country(parts2)
     elif choice == 3:
-        search_continent()
+        menu_continent()
     elif choice == 4:
         print("\nThank you. Goodbye.👋🏾 ")
         break
