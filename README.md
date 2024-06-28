@@ -27,7 +27,7 @@ Hello, there! I've started my path to get my Bachelor's Degree this spring. I de
 </details>
 <details>
     <summary><b>Subjects</b></summary><br>    
-    - <a src="https://github.com/Raphael-GC/byu-codes/tree/main/web-and-computer-programming/cse-110">CSE 110 - Intro to Programming</a><br> 
+    - <a href="web-and-computer-programming\cse-110\README.mdd">CSE 110 - Intro to Programming</a><br>
     - <a src="">WDD 130 - Web Fundamentals</a><br>
     - <a src="">CSE 111 - Programming with Functions</a><br>
     - <a src="">CSE 210 - Programming with Classes</a><br>
