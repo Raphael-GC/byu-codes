@@ -10,8 +10,8 @@ Week 07 - Functions
 </h1>
 <b>Middle of Week Exercises:</b>
 
-- [-](/web-and-computer-programming/cse-110/week-7/)
-- [-](/web-and-computer-programming/cse-110/week-7/)
+- [Recieve + Modify + Print](/web-and-computer-programming/cse-110/week-7/display_string.py)
+- [Area Calculator](/web-and-computer-programming/cse-110/week-7/)
 
 #### 💡📆 Tip of Week:
 - Don't do this ! 🚫
