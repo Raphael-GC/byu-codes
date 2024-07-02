@@ -3,8 +3,8 @@
 
 import math, os
 
-def compute_area_square(length):
-    area_of_square = length * length
+def compute_area_square(side):
+    area_of_square = side * side
     return area_of_square
 
 def compute_area_rectangle(length, width):
@@ -28,9 +28,9 @@ while True:
         print("Please enter a valid choice.")
         continue
     if choice == 1:
-        length_square = float(input('What is the lenght of a side of the square? '))
+        side_square = float(input('What is the lenght of a side of the square? '))
         os.system('cls')
-        print(f"The area of Square is: {compute_area_square(length_square):.2f}")
+        print(f"The area of Square is: {compute_area_square(side_square):.2f}")
     elif choice == 2:
         length_rectangle = float(input('What the length of the rectangle? '))
         width_rectangle = float(input('What the width of the rectangle? '))
