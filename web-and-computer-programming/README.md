@@ -23,7 +23,7 @@
 
 
 <b>Subjects:</b><br>
-    - [CSE 110 - Intro to Programming](/web-and-computer-programming/cse-110/README.md)<br> 
+    - <a href="cse-110\README.md">✅CSE 110 - Intro to Programming | Grade: A (99.09)</a><br>
     - <a src="">WDD 130 - Web Fundamentals</a><br>
     - <a src="">CSE 111 - Programming with Functions</a><br>
     - <a src="">CSE 210 - Programming with Classes</a><br>

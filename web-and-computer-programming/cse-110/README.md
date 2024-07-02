@@ -18,11 +18,11 @@ CSE 110 - Intro to Programming
     - [Week 03 - Decisions](/web-and-computer-programming/cse-110/week-3/README.md)<br>
     - [Week 04 - Loops](/web-and-computer-programming/cse-110/week-4/README.md) <br>
     - [Week 05 - Lists](/web-and-computer-programming/cse-110/week-5/README.md) <br>
-    - [Week 06 - Files](/web-and-computer-programming/cse-110/week-6/README.md) <br>
-    - [Week 07 - Function Basics](/web-and-computer-programming/cse-110/week-7/README.md)</a><br>
+    - [✅Week 06 - Files](/web-and-computer-programming/cse-110/week-6/README.md) <br>
+    - [✅Week 07 - Function Basics](/web-and-computer-programming/cse-110/week-7/README.md )  </a><br>
 </details>
 
-<b><a src="https://byui-cse.github.io/cse110-course/"> 📖 Course Materials</a></b>
+<b><a href="https://byui-cse.github.io/cse110-course/"> 📖 Course Materials</a></b>
 
 <div align="center">
 
