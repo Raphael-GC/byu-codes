@@ -27,7 +27,7 @@ Hello, there! I've started my path to get my Bachelor's Degree this spring. I de
 </details>
 <details>
     <summary><b>Subjects</b></summary><br>    
-    - <a href="web-and-computer-programming\cse-110\README.md">✅CSE 110 - Intro to Programming | Grade: A (99.09)</a><br>
+    <a href="web-and-computer-programming\cse-110\README.md">CSE 110 - Intro to Programming | Grade: A (99.09) ✅</a><br>
     - <a src="">WDD 130 - Web Fundamentals</a><br>
     - <a src="">CSE 111 - Programming with Functions</a><br>
     - <a src="">CSE 210 - Programming with Classes</a><br>

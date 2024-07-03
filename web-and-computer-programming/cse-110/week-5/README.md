@@ -10,8 +10,8 @@ Week 05 - Lists
 </h1>
 <b>Middle of Week Exercises:</b>
 
-- [-]()
-- [-]()
+- [Lists](/web-and-computer-programming/cse-110/week-5/lists.py)
+- [List Indexes](/web-and-computer-programming/cse-110/week-5/list_indexes.py)
 
 #### 💡📆 Tip of Week:
 
@@ -20,15 +20,24 @@ Week 05 - Lists
 <b>
 
 [Week's Project: Shopping Cart](/web-and-computer-programming/cse-110/week-5/shopping_cart.py) <br><br>
-[Team Activity: ]()
+[Team Activity - Lists of Numbers](https://byui-cse.github.io/cse110-ww-course/week05/team-activity.html)
 
-- [sample solution]()
-- [class solution](/web-and-computer-programming/cse-110/week-4/team_activity.py)
+- [class solution](/web-and-computer-programming/cse-110/week-5/team_activity.py) 
 
 
 #### 💡🤯 What did I learn this week?
 
->Wow, I learned a lot about how lists and tuples (lists with more than one collums) work. I discoverd that when want to access a value in a specific position on one of the collums of a tuple, we have to use two or more brackets []. I also learn about the methods isdigit() and isalpha() that respetively identifies if a input value is a number or a string.
+>1. I learned a lot about how lists and tuples (lists with more than one collums) work. I discoverd that when want to access a value in a specific position on one of the collums of a tuple, we have to use two or more brackets []. I also learn about the methods isdigit() and isalpha() that respetively identifies if a input value is a number or a string.
+
+---
+
+>2. Some methods that I used to manipulate the list of items I had never heard about. As .pop() to remove, .insert() to add a new item in specified position and .append() to add a new item in the end of the list.
+```python	
+index_num = int(input("\nWhich item would you like to change? "))
+new_purchase = input("What is the new item? ")
+itens.pop(index_num)
+itens.insert(index_num, new_purchase)
+´´´
 
 <br>
 

@@ -11,7 +11,7 @@ Week 07 - Functions
 <b>Middle of Week Exercises:</b>
 
 - [Recieve + Modify + Print](/web-and-computer-programming/cse-110/week-7/display_string.py)
-- [Area Calculator](/web-and-computer-programming/cse-110/week-7/)
+- [Area Calculator](/web-and-computer-programming/cse-110/week-7/area_calculator.py)
 
 #### 💡📆 Tip of Week:
 - Don't do this ! 🚫
