@@ -13,10 +13,10 @@ CSE 110 - Intro to Programming
 
 
 <b> 📆 Weekly Topics</b><br>
-    - [Week 01 - Getting Started and Input/Output](/web-and-computer-programming/cse-110/week-1/README.md) <br>
-    - [Week 02 - Variables and Expressions](/web-and-computer-programming/cse-110/week-2/README.md) <br>
-    - [Week 03 - Decisions](/web-and-computer-programming/cse-110/week-3/README.md)<br>
-    - [Week 04 - Loops](/web-and-computer-programming/cse-110/week-4/README.md) <br>
+    - [Week 01 - Getting Started and Input/Output ✅](/web-and-computer-programming/cse-110/week-1/README.md) <br>
+    - [Week 02 - Variables and Expressions ✅](/web-and-computer-programming/cse-110/week-2/README.md) <br>
+    - [Week 03 - Decisions ✅](/web-and-computer-programming/cse-110/week-3/README.md)<br>
+    - [Week 04 - Loops ✅](/web-and-computer-programming/cse-110/week-4/README.md) <br>
     - [Week 05 - Lists ✅](/web-and-computer-programming/cse-110/week-5/README.md) <br>
     - [Week 06 - Files ✅](/web-and-computer-programming/cse-110/week-6/README.md) <br>
     - [Week 07 - Function Basics ✅](/web-and-computer-programming/cse-110/week-7/README.md )  </a><br>
