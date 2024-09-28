@@ -74,25 +74,26 @@ def motocycle_tire():
             print("Please enter a valid choice.")
             continue
         if characteristic_choice == 1:
-            user_width = int(input("Enter the width of the tire in mm (120 - 200): "))
-            if 120 <= user_width <= 200:
-                print(f"The width {user_width} mm is within the valid range.")
+            user_width = int(input("Enter the width of the tire in mm (60 - 240): "))
+            if 60 <= user_width <= 40:
                 closest_indx = find_closest_indices(width, user_width)
                 printing_tires (closest_indx, catalog)
             else:
                 print(f"The width {width} mm is not within the valid range.")
         elif characteristic_choice == 2:
-            aspect_ratio = int(input("Enter the aspect ratio of the tire in % (25 - 85): "))
-            if 25 <= aspect_ratio <= 85:
-                print(f"The aspect ratio {aspect_ratio}% is within the valid range.")
+            user_aspect_ratio = int(input("Enter the aspect ratio of the tire in % (30 - 90): "))
+            if 30 <= user_aspect_ratio <= 90:
+                closest_indx = find_closest_indices(aspect_ratio, user_aspect_ratio)
+                printing_tires (closest_indx, catalog)
             else:
-                print(f"The aspect ratio {aspect_ratio}% is not within the valid range.")
+                print(f"The aspect ratio {user_aspect_ratio}% is not within the valid range.")
         elif characteristic_choice == 3:
-            diameter = int(input("Enter the diameter of the wheel in inches (13 - 24): "))
-            if 13 <= diameter <= 24:
-                print(f"The diameter {diameter} inches is within the valid range.")
+            user_diameter = int(input("Enter the diameter of the wheel in inches (10 - 21): "))
+            if 10 <= user_diameter <= 21:
+                closest_indx = find_closest_indices(diameter, user_diameter)
+                printing_tires (closest_indx, catalog)
             else:
-                print(f"The diameter {diameter} inches is not within the valid range.")
+                print(f"The diameter {user_diameter} inches is not within the valid range.")
         elif characteristic_choice == 4:
             break
         else:
@@ -118,13 +119,31 @@ def car_tire():
             print("Please enter a valid choice.")
             continue
         if characteristic_choice == 1:
-            user_width = int(input("Enter the width of the tire in mm (205 - 245): "))
-            if 205 <= user_width <= 245:
-                print(f"The width {user_width} mm is within the valid range.")
+            user_width = int(input("Enter the width of the tire in mm (145 - 355): "))
+            if 145 <= user_width <= 355:
                 closest_indx = find_closest_indices(width, user_width)
                 printing_tires (closest_indx, catalog)
             else:
                 print(f"The width {width} mm is not within the valid range.")
+        elif characteristic_choice == 2:
+            user_aspect_ratio = int(input("Enter the aspect ratio of the tire in % (25 - 85): "))
+            if 25 <= user_aspect_ratio <= 85:
+                closest_indx = find_closest_indices(aspect_ratio, user_aspect_ratio)
+                printing_tires (closest_indx, catalog)
+            else:
+                print(f"The aspect ratio {user_aspect_ratio}% is not within the valid range.")
+        elif characteristic_choice == 3:
+            user_diameter = int(input("Enter the diameter of the wheel in inches (13 - 24): "))
+            if 13 <= user_diameter <= 24:
+                closest_indx = find_closest_indices(diameter, user_diameter)
+                printing_tires (closest_indx, catalog)
+            else:
+                print(f"The diameter {user_diameter} inches is not within the valid range.")
+        elif characteristic_choice == 4:
+            break
+        else:
+            print("Please enter a valid choice.")
+            continue
 
 def find_closest_indices(numbers, target):
     closest_indices = []
