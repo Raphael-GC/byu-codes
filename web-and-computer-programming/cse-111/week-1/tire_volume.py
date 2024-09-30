@@ -39,7 +39,17 @@ with open("c:/Users/rapha/my-codes/byu-codes/web-and-computer-programming/cse-11
         tire_name.append(parts[5])
 
 # Gathering all lists in a tuple
-catalog = list(zip(tire_type,width,aspect_ratio,diameter,price,tire_name))
+general_catalog = list(zip(tire_type,width,aspect_ratio,diameter,price,tire_name))
+
+# Separating the general catalog into car and motocycle catalogs
+car_catalog = []
+motocycle_catalog = []
+for line in general_catalog:
+    vehicle_type = line[0]
+    if  vehicle_type.lower == "car":
+        car_catalog.append(line)
+    else:
+        motocycle_catalog.append(line)
 
 # Calculate the volume, print and store the result in volumes.txt - Core Requirements ✅
 def only_calculate_volume():
@@ -77,21 +87,21 @@ def motocycle_tire():
             user_width = int(input("Enter the width of the tire in mm (60 - 240): "))
             if 60 <= user_width <= 40:
                 closest_indx = find_closest_indices(width, user_width)
-                printing_tires (closest_indx, catalog)
+                printing_tires (closest_indx, motocycle_catalog)
             else:
                 print(f"The width {width} mm is not within the valid range.")
         elif characteristic_choice == 2:
             user_aspect_ratio = int(input("Enter the aspect ratio of the tire in % (30 - 90): "))
             if 30 <= user_aspect_ratio <= 90:
                 closest_indx = find_closest_indices(aspect_ratio, user_aspect_ratio)
-                printing_tires (closest_indx, catalog)
+                printing_tires (closest_indx, motocycle_catalog)
             else:
                 print(f"The aspect ratio {user_aspect_ratio}% is not within the valid range.")
         elif characteristic_choice == 3:
             user_diameter = int(input("Enter the diameter of the wheel in inches (10 - 21): "))
             if 10 <= user_diameter <= 21:
                 closest_indx = find_closest_indices(diameter, user_diameter)
-                printing_tires (closest_indx, catalog)
+                printing_tires (closest_indx, motocycle_catalog)
             else:
                 print(f"The diameter {user_diameter} inches is not within the valid range.")
         elif characteristic_choice == 4:
@@ -100,6 +110,7 @@ def motocycle_tire():
             print("Please enter a valid choice.")
             continue
 
+# Function to help the users to find the ideal tire for their vehicle through width, aspect ratio or diameter.
 def car_tire():
     print()
     print("🚗 Let's check some tire informations! 🚗")
@@ -122,21 +133,21 @@ def car_tire():
             user_width = int(input("Enter the width of the tire in mm (145 - 355): "))
             if 145 <= user_width <= 355:
                 closest_indx = find_closest_indices(width, user_width)
-                printing_tires (closest_indx, catalog)
+                printing_tires (closest_indx, car_catalog)
             else:
                 print(f"The width {width} mm is not within the valid range.")
         elif characteristic_choice == 2:
             user_aspect_ratio = int(input("Enter the aspect ratio of the tire in % (25 - 85): "))
             if 25 <= user_aspect_ratio <= 85:
                 closest_indx = find_closest_indices(aspect_ratio, user_aspect_ratio)
-                printing_tires (closest_indx, catalog)
+                printing_tires (closest_indx, car_catalog)
             else:
                 print(f"The aspect ratio {user_aspect_ratio}% is not within the valid range.")
         elif characteristic_choice == 3:
             user_diameter = int(input("Enter the diameter of the wheel in inches (13 - 24): "))
             if 13 <= user_diameter <= 24:
                 closest_indx = find_closest_indices(diameter, user_diameter)
-                printing_tires (closest_indx, catalog)
+                printing_tires (closest_indx, car_catalog)
             else:
                 print(f"The diameter {user_diameter} inches is not within the valid range.")
         elif characteristic_choice == 4:
@@ -145,6 +156,7 @@ def car_tire():
             print("Please enter a valid choice.")
             continue
 
+# Function to search for the closest values in tne especific list
 def find_closest_indices(numbers, target):
     closest_indices = []
     min_difference = float('inf')
@@ -160,6 +172,7 @@ def find_closest_indices(numbers, target):
 
     return closest_indices
 
+# Function to printing on the screen the ideal tires and ask the users if they want to buy them and save the name and phone number in csv file
 def printing_tires (indices, tire_catalog):
     today = datetime.now().today()
     line_response = 1
@@ -201,6 +214,7 @@ def printing_tires (indices, tire_catalog):
             print("Please enter a valid choice.")
             continue
 
+# Main menu
 def main():
     while True:
         print()
