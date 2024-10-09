@@ -1,3 +1,7 @@
 # Developer environment
 .pylintrc
 .vscode\launch.json
+web-and-computer-programming\cse-111\week-3\__pycache__\
+**/__pycache__
+.pytest_cache
+.venv
